@@ -1,22 +1,13 @@
 import React from "react";
 import "./projects.scss";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Header = () => {
   return (
     <div className="header">
-      <h1>
-        Hello, I'm Jessie
-        {/* <span className="wave" role="img" aria-labelledby="wave">
-          👋🏻
-        </span> */}
-      </h1>
-      <h3>I am a Full-Stack Developer living in London, contact me below:</h3>
+      <h1>Hello, I'm Jessie</h1>
+      <h3>A junior full-Stack Developer based in London, contact me below:</h3>
       <div className="icons">
         <a
           href="https://github.com/jessoy"
@@ -37,12 +28,6 @@ const Header = () => {
 
         {/* <a>CV</a> */}
       </div>
-      <h2>See my latest projects below:</h2>
-
-      {/* <h1></h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p> */}
     </div>
   );
 };

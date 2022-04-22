@@ -45,16 +45,17 @@ h1 {
 // }
 
 h2 {
-  // text-decoration: underline;
+  text-decoration: underline;
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 10px;
 }
 
 h3 {
-  max-width: 70%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
 
 h4 {
@@ -74,6 +75,8 @@ p {
 }
 
 .container-3 {
+  margin-top: 15px;
+
   a {
     margin: 10px;
     text-decoration: none;
@@ -84,7 +87,7 @@ p {
     background-color: #efdac7;
     // background-color: #e1b19b;
     // background-color: #e1b19b;
-    background-color: #3b3b3b;
+    background-color: black;
     font-size: 0.7rem;
     height: 40px;
     border-radius: 25px;
@@ -92,18 +95,6 @@ p {
     box-sizing: border-box;
     line-height: 2rem;
   }
-
-  margin-top: 15px;
-
-  // .blue {
-  //     background-color: #cad7d7;
-  // }
-  // .green {
-  //     background-color: #afb784;
-  // }
-  // .pink {
-  //     background-color: #e2adb0;
-  // }
 }
 
 .header {
@@ -113,28 +104,34 @@ p {
   background-color: #99755c;
   background-color: #e1b19b;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-  a {
-    padding: 15px;
-    font-size: 1.5rem;
-    // background-color: red;
-  }
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-around;
 
   h1,
-  h3,
   h2,
+  h3,
+  p {
+    padding: 20px;
+  }
+
   a {
-    color: #3b3b3b;
+    padding: 15px 30px 15px 0;
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  .icons {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-style: italic;
   }
-
-
 }
 
 .project {
@@ -158,44 +155,14 @@ p {
     opacity: 50%;
     margin-left: auto;
     margin-right: auto;
-    // padding: 20px;
-    // border-radius: 10%;
   }
 
   img:hover {
     opacity: 100%;
   }
-
-  h2 {
-    text-decoration: underline;
-    font-size: 1.5rem;;
-  }
 }
 
 @media screen and (min-width: 860px) {
-  .header {
-    h1,
-    h2,
-    h3,
-    p {
-      padding: 20px;
-      text-align: left;
-    }
-
-    h2 {
-      max-width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .icons {
-      max-width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: left;
-    }
-  }
-
   .project {
     height: 300px;
     width: 80vw;
@@ -211,41 +178,27 @@ p {
         width: 300%;
         z-index: 100;
         text-decoration: underline;
-
       }
 
       .three {
         overflow: visible;
         width: 160%;
         z-index: 100;
-        // background-color: red;
-      }
-
-      h2 {
-        font-weight: 600;
-
       }
     }
 
     .container-2 {
       width: 50%;
-      background-color: antiquewhite;
       align-content: center;
 
       img {
         min-height: 100%;
         min-width: 100%;
         object-fit: cover;
-        // max-width: 80%;
-        overflow: hidden;
-        // opacity: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 0;
-      }
-
-      img:hover {
-        opacity: 100%;
+        // overflow: hidden;
+        // margin-left: auto;
+        // margin-right: auto;
+        // border-radius: 0;
       }
     }
 
@@ -253,15 +206,11 @@ p {
     p,
     h4 {
       padding-left: 0;
+      margin: 0;
     }
 
     h2 {
       font-size: 1.7rem;
-    }
-
-    p,
-    h4 {
-      margin: 0;
     }
 
     .container-3 {
@@ -269,48 +218,5 @@ p {
       text-align: right;
       align-self: flex-end;
     }
-  }
-}
-
-@media screen and (min-width: 1050px) {
-  .project {
-    h2 {
-      font-size: 1.7rem;
-    }
-  }
-}
-
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
-
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
   }
 }

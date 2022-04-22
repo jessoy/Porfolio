@@ -17,7 +17,7 @@ const Projects = () => {
             <h4>React | Node | Redux | SQL | SCSS</h4>
           </div>
           <div className="name">
-            <h2>Find Sparks Dating App </h2>
+            <h2>01. Find Sparks Dating App </h2>
           </div>
           <div className="three">
             <p>
@@ -55,7 +55,7 @@ const Projects = () => {
             <h4>React | GSAP | HTML | SCSS</h4>
           </div>
           <div className="name">
-            <h2>Read Easy - Learn to Read </h2>
+            <h2>02. Read Easy - Learn to Read </h2>
           </div>
           <div className="three">
             <p>
@@ -90,7 +90,7 @@ const Projects = () => {
             <h4>Vanilla JS | DOM Manipulation</h4>
           </div>
           <div className="name">
-            <h2>Weather App </h2>
+            <h2>03. Weather App </h2>
           </div>
           <div className="three">
             <p>
@@ -127,7 +127,7 @@ const Projects = () => {
             <h4>HTML | SCSS</h4>
           </div>
           <div className="name">
-            <h2>Nowness Homage Piece </h2>
+            <h2>04. Nowness Homage Piece </h2>
           </div>
           <div className="three">
             <p>
@@ -155,7 +155,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      
+
 
       <div className="project">
         <div className="container-left">
@@ -163,7 +163,7 @@ const Projects = () => {
             <h4>React | Redux | HTML | SCSS</h4>
           </div>
           <div className="name">
-            <h2>Simpsons Quote Generator </h2>
+            <h2>05. Simpsons Quote Generator </h2>
           </div>
           <div className="three">
             <p>
@@ -199,7 +199,7 @@ const Projects = () => {
             <h4>HTML | SVG | CSS</h4>
           </div>
           <div className="name">
-            <h2>SVG Animation </h2>
+            <h2>06. SVG Animation </h2>
           </div>
           <div className="three">
             <p>
