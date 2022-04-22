@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  padding: 5px;
+}
+
+h1 {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+h3 {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  padding: 10px;
+  font-size: small;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.container-3 {
+  margin-top: 15px;
+}
+
+.container-3 a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  color: #ffffff;
+  text-decoration: underline;
+  background-color: #efdac7;
+  background-color: #3b3b3b;
+  font-size: 0.7rem;
+  height: 40px;
+  border-radius: 25px;
+  padding: 8px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 2rem;
+}
+
+.header {
+  min-height: 20vh;
+  max-width: 100%;
+  background-color: #e5ccc9;
+  background-color: #99755c;
+  background-color: #e1b19b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header a {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.header h1,
+.header h3,
+.header h2,
+.header a {
+  color: #3b3b3b;
+}
+
+.header h3 {
+  font-size: 1rem;
+}
+
+.project {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0;
+  -webkit-border-after: 1px solid transparent;
+          border-block-end: 1px solid transparent;
+  border-block-end-color: #3b3b3b;
+}
+
+.project .container-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project img {
+  max-height: 100%;
+  max-width: 50%;
+  opacity: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project img:hover {
+  opacity: 100%;
+}
+
+.project h2 {
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 860px) {
+  .header h1,
+  .header h2,
+  .header h3,
+  .header p {
+    padding: 20px;
+    text-align: left;
+  }
+  .header h2 {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header .icons {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  .project {
+    height: 300px;
+    width: 80vw;
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .project .container-left {
+    max-width: 30%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .project .container-left .name {
+    width: 300%;
+    z-index: 100;
+    text-decoration: underline;
+  }
+  .project .container-left .three {
+    overflow: visible;
+    width: 160%;
+    z-index: 100;
+  }
+  .project .container-left h2 {
+    font-weight: 600;
+  }
+  .project .container-2 {
+    width: 50%;
+    background-color: antiquewhite;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .project .container-2 img {
+    min-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+  }
+  .project .container-2 img:hover {
+    opacity: 100%;
+  }
+  .project h2,
+  .project p,
+  .project h4 {
+    padding-left: 0;
+  }
+  .project h2 {
+    font-size: 1.7rem;
+  }
+  .project p,
+  .project h4 {
+    margin: 0;
+  }
+  .project .container-3 {
+    width: 20%;
+    text-align: right;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .project h2 {
+    font-size: 1.7rem;
+  }
+}
+
+.wave {
+  -webkit-animation-name: wave-animation;
+          animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  -webkit-animation-duration: 2.1s;
+          animation-duration: 2.1s;
+  /* Change to speed up or slow down */
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  -webkit-transform-origin: 70% 70%;
+          transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@-webkit-keyframes wave-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  30% {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  40% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  /* Reset for the last half to pause */
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes wave-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  30% {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  40% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  /* Reset for the last half to pause */
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+/*# sourceMappingURL=projects.css.map */

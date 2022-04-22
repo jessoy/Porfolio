@@ -1,7 +1,11 @@
 import "./projects.scss";
 import "../images/readEasy.jpg";
-import readEasy from "../images/readEasy.jpg";
+
 import findSparks from "../images/findSparks.jpg";
+import readEasy from "../images/readEasy.jpg";
+import simpsons from "../images/simpsons.jpg";
+import nowness from "../images/nowness.jpg";
+import weatherApp from "../images/weatherApp.jpg";
 import svgAnimation from "../images/svgAnimation.jpg";
 
 const Projects = () => {
@@ -9,15 +13,16 @@ const Projects = () => {
     <>
       <div className="project">
         <div className="container-left">
-          <div className="tech">React | Node | Redux | SQL | SCSS</div>
+          <div className="tech">
+            <h4>React | Node | Redux | SQL | SCSS</h4>
+          </div>
           <div className="name">
             <h2>Find Sparks Dating App </h2>
           </div>
           <div className="three">
             <p>
-              A live dating app! Cool features include: login and registration,
-              bespoke matching and sorting algorithm, messaging functionality,
-              and capturing a user selfie on sign-up.
+              A live dating app with front-end, back-end and SQL database. Includes login, registration,
+              bespoke matching and sorting algorithm, messaging functionality, selfie storage and security features.
             </p>
             {/* <p>
               Security features included to prevent SQL injection, supports
@@ -25,23 +30,30 @@ const Projects = () => {
             </p> */}
           </div>
         </div>
-        <div className="container-2 four">
-          <img src={findSparks} alt="" />
+        <div className="container-2">
+        <a
+            href="https://find-sparks.jessieclements.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+          ><img src={findSparks} alt="" /> </a>
         </div>
-        <div className="container-3 five">
+        <div className="container-3">
           <a
             href="https://find-sparks.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
+            className="green"
           >
-            view the project
+            view project
           </a>
         </div>
       </div>
 
       <div className="project">
         <div className="container-left">
-          <div className="tech">React | GSAP | HTML | SCSS</div>
+          <div className="tech">
+            <h4>React | GSAP | HTML | SCSS</h4>
+          </div>
           <div className="name">
             <h2>Read Easy - Learn to Read </h2>
           </div>
@@ -52,16 +64,22 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="container-2 four">
-          <img src={readEasy} alt="" />
+        <div className="container-2">
+        <a
+            href="https://read-easy.jessieclements.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+            className="pink"
+          ><img src={readEasy} alt="" /></a>
         </div>
-        <div className="container-3 five">
+        <div className="container-3">
           <a
             href="https://read-easy.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
+            className="pink"
           >
-            view the project
+            view project
           </a>
         </div>
       </div>
@@ -83,46 +101,22 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="container-2 four">
-          {/* <img src={weatherApp;} alt="" /> */}
+        <div className="container-2">
+        <a
+            href="https://weather-app.jessieclements.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+            className="blue"
+          ><img src={weatherApp} alt="" /></a>
         </div>
-        <div className="container-3 five">
+        <div className="container-3">
           <a
             href="https://weather-app.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
+            className="blue"
           >
-            view the project
-          </a>
-        </div>
-      </div>
-
-      <div className="project">
-        <div className="container-left">
-          <div className="tech">
-            <h4>React | Redux | HTML | SCSS</h4>
-          </div>
-          <div className="name">
-            <h2>Simpsons API </h2>
-          </div>
-          <div className="three">
-            <p>
-              An app retreiving characters and their quotes form an API with the
-              functionality built in to like and delete characters, with an
-              up-to date count.
-            </p>
-          </div>
-        </div>
-        <div className="container-2 four">
-          {/* <img src={weatherApp;} alt="" /> */}
-        </div>
-        <div className="container-3 five">
-          <a
-            href="https://simpsons-api.jessieclements.co.uk/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            view the project
+            view project
           </a>
         </div>
       </div>
@@ -142,16 +136,59 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="container-2 four">
-          {/* <img src={weatherApp;} alt="" /> */}
+        <div className="container-2">
+        <a
+            href="https://nowness.jessieclements.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+            className="pink"
+          > <img src={nowness} alt="" /></a>
         </div>
-        <div className="container-3 five">
+        <div className="container-3">
           <a
             href="https://nowness.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
+            className="pink"
           >
-            view the project
+            view project
+          </a>
+        </div>
+      </div>
+      
+
+      <div className="project">
+        <div className="container-left">
+          <div className="tech">
+            <h4>React | Redux | HTML | SCSS</h4>
+          </div>
+          <div className="name">
+            <h2>Simpsons Quote Generator </h2>
+          </div>
+          <div className="three">
+            <p>
+              An app retreiving characters and their quotes form an API with the
+              functionality built in to like and delete characters, with an
+              up-to date count.
+            </p>
+          </div>
+        </div>
+        <div className="container-2">
+        <a
+            href="https://simpsons-api.jessieclements.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+            className="green"
+          ><img src={simpsons} alt="" /></a>
+        </div>
+        <div className="container-3">
+          <a
+            href="https://simpsons-api.jessieclements.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+            className="green"
+          >
+            view project
           </a>
         </div>
       </div>
@@ -171,16 +208,22 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="container-2 four">
-          <img src={svgAnimation} alt="" />
-        </div>
-        <div className="container-3 five">
-          <a
+        <div className="container-2">
+        <a
             href="https://svg-animation.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
+            className="blue"
+          ><img src={svgAnimation} alt="" /></a>
+        </div>
+        <div className="container-3">
+          <a
+            href="https://cycle-around.jessieclements.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+            className="blue"
           >
-            view the project
+            view project
           </a>
         </div>
       </div>

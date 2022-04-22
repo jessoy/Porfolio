@@ -5,9 +5,9 @@ import Header from "./Components/Header";
 function App() {
   return (
     <div className="App">
-              <span className="wave" role="img" aria-labelledby="wave">
+              {/* <span className="wave" role="img" aria-labelledby="wave">
           👋🏻
-        </span>
+        </span> */}
       <Header />
 
       <Projects />
