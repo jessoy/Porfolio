@@ -17,12 +17,14 @@ const Projects = () => {
             <h4>React | Node | Redux | SQL | SCSS</h4>
           </div>
           <div className="name">
-            <h2>01. Find Sparks Dating App </h2>
+            <h2>Find Sparks Dating App </h2>
           </div>
           <div className="three">
             <p>
-              A live dating app with front-end, back-end and SQL database. Includes login, registration,
-              bespoke matching and sorting algorithm, messaging functionality, selfie storage and security features.
+              A live dating app with front-end, back-end and SQL database.
+              Includes login, registration, bespoke matching and sorting
+              algorithm, messaging functionality, selfie storage and security
+              features.
             </p>
             {/* <p>
               Security features included to prevent SQL injection, supports
@@ -31,11 +33,13 @@ const Projects = () => {
           </div>
         </div>
         <div className="container-2">
-        <a
+          <a
             href="https://find-sparks.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
-          ><img src={findSparks} alt="" /> </a>
+          >
+            <img src={findSparks} alt="" />{" "}
+          </a>
         </div>
         <div className="container-3">
           <a
@@ -55,7 +59,7 @@ const Projects = () => {
             <h4>React | GSAP | HTML | SCSS</h4>
           </div>
           <div className="name">
-            <h2>02. Read Easy - Learn to Read </h2>
+            <h2>Read Easy - Learn to Read </h2>
           </div>
           <div className="three">
             <p>
@@ -65,12 +69,14 @@ const Projects = () => {
           </div>
         </div>
         <div className="container-2">
-        <a
+          <a
             href="https://read-easy.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
             className="pink"
-          ><img src={readEasy} alt="" /></a>
+          >
+            <img src={readEasy} alt="" />
+          </a>
         </div>
         <div className="container-3">
           <a
@@ -90,24 +96,26 @@ const Projects = () => {
             <h4>Vanilla JS | DOM Manipulation</h4>
           </div>
           <div className="name">
-            <h2>03. Weather App </h2>
+            <h2>Weather App </h2>
           </div>
           <div className="three">
             <p>
-              A weather forecasting application that uses the Geolocator in the
-              browser navigation and API data to returns weather and sunset data
-              based on either a users location or on a location inputted by the
-              user.
+              A weather forecasting application that uses the Geolocator API in
+              the browser navigation and calls API data to return weather and
+              sunset data based on either a users location or on a location
+              inputted by the user.
             </p>
           </div>
         </div>
         <div className="container-2">
-        <a
+          <a
             href="https://weather-app.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
             className="blue"
-          ><img src={weatherApp} alt="" /></a>
+          >
+            <img src={weatherApp} alt="" />
+          </a>
         </div>
         <div className="container-3">
           <a
@@ -127,22 +135,25 @@ const Projects = () => {
             <h4>HTML | SCSS</h4>
           </div>
           <div className="name">
-            <h2>04. Nowness Homage Piece </h2>
+            <h2>Nowness Homage Piece </h2>
           </div>
           <div className="three">
             <p>
-              A replica web page built in HTML and to professional standard.
-              Includes drop-down menu created in SCSS.
+              A replica web page built in HTML and SCSS to a professional
+              standard. Includes drop-down menu created in SCSS.
             </p>
           </div>
         </div>
         <div className="container-2">
-        <a
+          <a
             href="https://nowness.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
             className="pink"
-          > <img src={nowness} alt="" /></a>
+          >
+            {" "}
+            <img src={nowness} alt="" />
+          </a>
         </div>
         <div className="container-3">
           <a
@@ -156,30 +167,31 @@ const Projects = () => {
         </div>
       </div>
 
-
       <div className="project">
         <div className="container-left">
           <div className="tech">
             <h4>React | Redux | HTML | SCSS</h4>
           </div>
           <div className="name">
-            <h2>05. Simpsons Quote Generator </h2>
+            <h2>Simpsons Quote Generator </h2>
           </div>
           <div className="three">
             <p>
-              An app retreiving characters and their quotes form an API with the
-              functionality built in to like and delete characters, with an
-              up-to date count.
+              An app retreiving simpsons characters and their quotes from an
+              API. Includes functionality to like, delete characters and keep a
+              live count of liked characters.
             </p>
           </div>
         </div>
         <div className="container-2">
-        <a
+          <a
             href="https://simpsons-api.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
             className="green"
-          ><img src={simpsons} alt="" /></a>
+          >
+            <img src={simpsons} alt="" />
+          </a>
         </div>
         <div className="container-3">
           <a
@@ -199,22 +211,24 @@ const Projects = () => {
             <h4>HTML | SVG | CSS</h4>
           </div>
           <div className="name">
-            <h2>06. SVG Animation </h2>
+            <h2>SVG Animation </h2>
           </div>
           <div className="three">
             <p>
-              A short challenge set to produce an animation using only SVG's and
+              A small challenge to produce an animation using only SVG's and
               keyframe animations in CSS.
             </p>
           </div>
         </div>
         <div className="container-2">
-        <a
-            href="https://svg-animation.jessieclements.co.uk/"
+          <a
+            href="https://cycle-around.jessieclements.co.uk/"
             target="_blank"
             rel="noreferrer"
             className="blue"
-          ><img src={svgAnimation} alt="" /></a>
+          >
+            <img src={svgAnimation} alt="" />
+          </a>
         </div>
         <div className="container-3">
           <a
