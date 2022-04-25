@@ -177,7 +177,7 @@ const Projects = () => {
           </div>
           <div className="three">
             <p>
-              An app retreiving simpsons characters and their quotes from an
+              An app retrieving simpsons characters and their quotes from an
               API. Includes functionality to like, delete characters and keep a
               live count of liked characters.
             </p>
