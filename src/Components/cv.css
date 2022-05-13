@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+span {
+  font-weight: 700;
+}
+
+.cv {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv h2 {
+  margin: 0;
+  padding: 20px;
+  font-size: 1.7rem;
+}
+
+.cv h3 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cv ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=cv.css.map */

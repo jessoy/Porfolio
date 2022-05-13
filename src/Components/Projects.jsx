@@ -26,6 +26,7 @@ const Projects = () => {
               algorithm, messaging functionality, selfie storage and security
               features.
             </p>
+            <p>Create a user account or log in with a@a.com 'password' to look around</p>
             {/* <p>
               Security features included to prevent SQL injection, supports
               multi-device login and more! Created as a group of 4 in six weeks.
@@ -59,12 +60,12 @@ const Projects = () => {
             <h4>React | GSAP | HTML | SCSS</h4>
           </div>
           <div className="name">
-            <h2>Read Easy - Learn to Read </h2>
+            <h2>Read Easy - Learn to Read (Desktop Only)</h2>
           </div>
           <div className="three">
             <p>
               A hackathon challenge with the brief to help children learning to
-              read. Features text-to-speech functionality.
+              read. Features text-to-speech functionality. Desktop Only.
             </p>
           </div>
         </div>
