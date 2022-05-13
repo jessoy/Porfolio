@@ -26,7 +26,7 @@ const Projects = () => {
               algorithm, messaging functionality, selfie storage and security
               features.
             </p>
-            <p>Create a user account or log in with a@a.com 'password' to look around</p>
+            <p>Create a user account or log in with email: a@a.com and password: password to look around</p>
             {/* <p>
               Security features included to prevent SQL injection, supports
               multi-device login and more! Created as a group of 4 in six weeks.
